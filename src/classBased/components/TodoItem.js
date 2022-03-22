@@ -13,14 +13,14 @@ class TodoItem extends React.Component {
     });
   }
 
-  handleUpdatedDone = event => {
-    if (event.key === "Enter") {
-      this.setState({ editing: false })
+  handleUpdatedDone = (event) => {
+    if (event.key === 'Enter') {
+      this.setState({ editing: false });
     }
   }
 
   componentWillUnmount() {
-    console.log("Cleaning up...")
+    console.log('Cleaning up...');
   }
 
   render() {

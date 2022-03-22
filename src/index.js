@@ -5,7 +5,7 @@ import './functionBased/App.css';
 
 ReactDOM.render(
 
-    <TodoContainer />,
+  <TodoContainer />,
 
-document.getElementById('root')
+  document.getElementById('root'),
 );
